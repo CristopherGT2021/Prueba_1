@@ -11,12 +11,13 @@ import com.empresa.entity.Modalidad;
 
 public interface ModalidadRepository extends JpaRepository<Modalidad, Integer>  {
 	
+	
 	@Query("select m from Modalidad m where "
 			+ "( :#{#fil.sede} is '' or m.sede like :#{#fil.sede} ) and "
 			+ "( :#{#fil.nombre} is '' or m.nombre like :#{#fil.nombre} ) and "
 			+ "( :#{#fil.idDeporte} is 0 or m.deporte.idDeporte = :#{#fil.idDeporte} ) ")
 	
 	public abstract List<Modalidad> listaPorFiltro(@Param("fil")FiltroModalidad filtro);
-
+	
 	
 }

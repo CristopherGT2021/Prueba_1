@@ -26,8 +26,8 @@ public class ModalidadServiceImpl implements ModalidadService {
 	}
 
 	@Override
-	public List<Modalidad> listaPorFiltro(FiltroModalidad filtro) {
+		public List<Modalidad> listaPorFiltro(FiltroModalidad filtro) {
 		return repositorio.listaPorFiltro(filtro);
 	}
-
+	
 }

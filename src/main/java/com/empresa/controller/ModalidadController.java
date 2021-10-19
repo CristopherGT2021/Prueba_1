@@ -74,9 +74,6 @@ public class ModalidadController {
 				salida.put("mensaje", "Error : " + e.getMessage());
 		}
 	return ResponseEntity.ok(salida);
-	
-}
-	
-	
+ }	
 
 }

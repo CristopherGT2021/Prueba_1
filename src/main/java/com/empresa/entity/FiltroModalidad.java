@@ -25,9 +25,5 @@ public class FiltroModalidad {
 		this.idDeporte = idDeporte;
 	}
 	
-	
-	
-	
-	
 
 }
