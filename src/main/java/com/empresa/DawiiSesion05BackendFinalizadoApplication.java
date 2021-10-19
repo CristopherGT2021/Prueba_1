@@ -8,6 +8,6 @@ public class DawiiSesion05BackendFinalizadoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DawiiSesion05BackendFinalizadoApplication.class, args);
-	} 
+	}
 
 }
