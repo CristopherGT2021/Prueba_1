@@ -12,6 +12,6 @@ public interface ModalidadService {
 	public Modalidad insertaActualizaModalidad(Modalidad obj);
 	public List<Modalidad> listaModalidad();
 	
-	public abstract List<Modalidad> listaPorFiltro(FiltroModalidad filtro);
 	
+	public abstract List<Modalidad> listaPorFiltro(FiltroModalidad filtro);
 }
